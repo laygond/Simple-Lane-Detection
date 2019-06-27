@@ -41,26 +41,19 @@ The demo file makes use of Udacity's dataset to show results. However, once you 
 #### Pipeline 
 This is the process through which each image or video frame goes through.
 
-<p align="center">
+<p align="center"> <img src="README_images/before.PNG"> </p>
+<p align="center"> Fig: Original Image </p>
 
-    ![alt text](README_images/before.PNG)
-        
-    Fig: Original Image
-
-    ![alt text](README_images/pipeline.PNG)
-
-    Fig: Step 1 -> transform to gray.
+<p align="center"> <img src="README_images/before.PNG"> </p>
+<p align="center"> Fig: Step 1 -> transform to gray.
     Step 2 -> blurr image.
     Step 3 -> apply canny edge detection.
     Step 4 -> obtain region of interest.
     Step 5 -> apply hough transform.
-    Step 6 -> draw lines: classify hough lines and apply RANSAC to find polynomial model.
-    
-    ![alt text](README_images/after.PNG)
-    
-    Fig: Final image (Step 6 can be applied directly to the color image) 
+    Step 6 -> draw lines: classify hough lines and apply RANSAC to find polynomial model. </p>
 
-</p>
+<p align="center"> <img src="README_images/after.PNG"> </p>
+<p align="center">Fig: Final image (Note: Step 6 can be applied directly to the color image) </p>
 
 
 ## Drawbacks and improvements
