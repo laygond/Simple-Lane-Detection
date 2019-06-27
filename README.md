@@ -40,23 +40,13 @@ The demo file makes use of Udacity's dataset to show results. However, once you 
 #### Pipeline 
 This is the process through which each image or video frame goes through.
 
-<p align="center">
-    ![alt text original image](README_images/before.png)
-    ![alt text](README_images/pipeline.png)
-    ![alt text](README_images/after.png)
-</p>
+
+![alt text original image](README_images/before.png)
+![alt text](README_images/pipeline.png)
+![alt text](README_images/after.png)
+
 
 
 ## Drawbacks and improvements
 
 From the challenge video one can identify that the techniques implemented are good for determining lines on on the road but has issues extrapolating those lines. `line_slope_classifier` function needs improvement since it fails when the lane has steep curves. Also the second order polinomial line models for each line should share the same `a` coefficient in `ay^2+by+c` since both lines curve in the same direction. We will deal with this issues in our next repo.
-
-**Some OpenCV functions that might be useful for this project are:**
-`cv2.inRange()` for color selection  
-`cv2.fillPoly()` for regions selection  
-`cv2.line()` to draw lines on an image given endpoints  
-`cv2.addWeighted()` to coadd / overlay two images
-`cv2.cvtColor()` to grayscale or change color
-`cv2.imwrite()` to output images to file  
-`cv2.bitwise_and()` to apply a mask to an image
-
