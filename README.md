@@ -42,11 +42,11 @@ The demo file makes use of Udacity's dataset to show results. However, once you 
 This is the process through which each image or video frame goes through.
 
 
-![alt text original image](README_images/before.png)
+![alt text original image](README_images/before.PNG)
 
-![alt text](README_images/pipeline.png)
+![alt text](README_images/pipeline.PNG)
 
-![alt text](README_images/after.png)
+![alt text](README_images/after.PNG)
 
 
 
