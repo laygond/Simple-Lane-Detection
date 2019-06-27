@@ -8,6 +8,7 @@ Very simple pipeline to detect the line segments in an image, then average/extra
 ```
 .Simple-Lane-Detection
 ├── demo.ipynb                   # Main file
+├── .gitignore                   # git file to prevent unnecessary files from being uploaded
 ├── README_images                # Images used by README.md
 │   └── ...
 ├── README.md
@@ -42,7 +43,9 @@ This is the process through which each image or video frame goes through.
 
 
 ![alt text original image](README_images/before.png)
+
 ![alt text](README_images/pipeline.png)
+
 ![alt text](README_images/after.png)
 
 
