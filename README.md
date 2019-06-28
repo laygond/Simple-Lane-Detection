@@ -44,7 +44,7 @@ This is the process through which each image or video frame goes through.
 <p align="center"> <img src="README_images/before.PNG"> </p>
 <p align="center"> Fig: Original Image </p>
 
-<p align="center"> <img src="README_images/before.PNG"> </p>
+<p align="center"> <img src="README_images/pipeline.PNG"> </p>
 <p align="center"> Fig: Step 1 -> transform to gray.
     Step 2 -> blurr image.
     Step 3 -> apply canny edge detection.
